@@ -21,7 +21,7 @@ if (codigoRegiaoOrigem >= 001 && codigoRegiaoOrigem <= 099) {
 } else if (codigoRegiaoOrigem >= 400 && codigoRegiaoOrigem <= 499) {
     nomeRegiaoOrigem = "Norte"
 } else {
-  nomeRegiaoOrigem = "Região de origem inválida"  
+  nomeRegiaoOrigem = "de origem inválida"  
 }
 
 
@@ -39,7 +39,7 @@ if (codigoRegiaoDestino >= 001 && codigoRegiaoDestino <= 099) {
 } else if (codigoRegiaoDestino >= 400 && codigoRegiaoDestino <= 499) {
     nomeRegiaoDestino = "Norte"
 } else {
-  nomeRegiaoDestino = "Região de destino inválida"  
+  nomeRegiaoDestino = "de destino inválida"  
 }
 
 
